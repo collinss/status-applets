@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<schemalist>
+
+  <schema path="/org/xstatus/timer/" id="org.xstatus.timer">
+    <key name='alarms' type='a(s)'>
+      <default>[]</default>
+      <summary>List of user created alarms</summary>
+      <description>
+        Contains a list of alarms the user has created.
+      </description>
+    </key>
+
+    <key name='timers' type='a(s)'>
+      <default>[]</default>
+      <summary>List of user created timers</summary>
+      <description>
+        Contains a list of timers the user has created.
+      </description>
+    </key>
+
+  </schema>
+
+</schemalist>

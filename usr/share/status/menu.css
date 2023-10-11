@@ -1,0 +1,13 @@
+.xapp-menu {
+    border: @borders
+}
+
+.xapp-menu-item:hover {
+    /*border: solid 3px red;*/
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.xapp-menu-submenu-section {
+    background-color: rgba(0, 0, 0, 0.05);
+}

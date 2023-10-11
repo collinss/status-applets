@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<schemalist>
+
+  <schema path="/org/xstatus/sanderson/" id="org.xstatus.sanderson">
+    <key name='status' type='s'>
+      <default>""</default>
+      <summary>Previous project/percentage</summary>
+      <description>
+        Contains the list of projects and their completion percentages from the last update.
+      </description>
+    </key>
+
+  </schema>
+
+</schemalist>

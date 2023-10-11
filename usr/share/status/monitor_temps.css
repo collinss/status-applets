@@ -1,0 +1,12 @@
+#mt_item {
+    border: white solid 1px;
+    padding: 10px;
+}
+
+#digital-display-value {
+    font-size: 48px;
+}
+
+#digital-display-units {
+    font-size: 24px;
+}

@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+
+import gi
+gi.require_version('Gdk', '3.0')
+gi.require_version('Gtk', '3.0')
+gi.require_version('XApp', '1.0')
+
+from gi.repository import Gdk, Gtk, XApp
+
+from status.menu import Menu, MenuItem
+
+class MyWindow(Gtk.Window):
+    def __init__(self):
+        super(MyWindow, self).__init__(default_height=100, default_width=100)
+
+        self.button = Gtk.Button(label='test', halign=Gtk.Align.CENTER, valign=Gtk.Align.CENTER)
+        self.add(self.button)
+        self.button.connect('clicked', self.open_menu)
+
+        self.menu = Menu()
+        self.menu.append(Gtk.Label(label='hello', visible=True))
+        self.menu.append(Gtk.Label(label='world', visible=True))
+        self.menu.append(Gtk.Box(visible=True))
+
+        self.connect("destroy", self.quit)
+
+        self.show_all()
+
+    def open_menu(self, *args):
+        self.menu.show_all()
+        self.menu.popup_at_widget(self.button, Gdk.Gravity.SOUTH_EAST, Gdk.Gravity.NORTH_WEST)
+
+    def quit(self, *args):
+        Gtk.main_quit()
+
+if __name__ == '__main__':
+    MyWindow()
+    Gtk.main()

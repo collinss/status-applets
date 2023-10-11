@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<schemalist>
+
+  <schema path="/org/xstatus/sound/" id="org.xstatus.sound">
+    <key name='control-players' type='b'>
+      <default>true</default>
+      <summary>Control players</summary>
+      <description>
+        If true, compatible players can be controlled from this app, and status information such as track duration, song, album art etc will be displayed.
+      </description>
+    </key>
+
+    <key name='show-loop-shuffle' type='b'>
+      <default>false</default>
+      <summary>Show Loop and Shuffle controls</summary>
+      <description>
+        Show Loop and Shuffle controls
+      </description>
+    </key>
+
+    <key name='show-menu' type='s'>
+      <default>""</default>
+      <summary></summary>
+      <description>
+        
+      </description>
+    </key>
+
+    <key name='show-track' type='b'>
+      <default>false</default>
+      <summary></summary>
+      <description>
+        
+      </description>
+    </key>
+
+    <key name='truncate-text' type='b'>
+      <default>false</default>
+      <summary></summary>
+      <description>
+        
+      </description>
+    </key>
+
+    <key name='middle-click-action' type='s'>
+      <default></default>
+      <summary></summary>
+      <description>
+        
+      </description>
+    </key>
+
+    <key name='horizontal-scroll' type='b'>
+      <default>false</default>
+      <summary></summary>
+      <description>
+        
+      </description>
+    </key>
+
+    <key name='show-album-icon' type='b'>
+      <default>false</default>
+      <summary></summary>
+      <description>
+
+      </description>
+    </key>
+
+    <key name='hide-systray' type='b'>
+      <default>true</default>
+      <summary></summary>
+      <description>
+
+      </description>
+    </key>
+
+    <key name='tooltip-show-volume' type='b'>
+      <default>true</default>
+      <summary></summary>
+      <description>
+
+      </description>
+    </key>
+
+    <key name='tooltip-show-player' type='b'>
+      <default>false</default>
+      <summary></summary>
+      <description>
+
+      </description>
+    </key>
+
+    <key name='tooltip-show-artist' type='b'>
+      <default>false</default>
+      <summary></summary>
+      <description>
+
+      </description>
+    </key>
+
+  </schema>
+
+</schemalist>

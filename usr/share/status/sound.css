@@ -1,0 +1,27 @@
+#sound-overlay {
+    background-color: rgba(48, 49, 48, 0.9);
+    color: rgba(255, 255, 255, 0.87);
+    border-top: 1px solid #212221;
+}
+
+#sound-control-button {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#sound-control-button:hover {
+    background-color: #545453;
+    border-color: #212221;
+}
+
+#seeker progress {
+    color: #92b372;
+}
+
+#seeker trough {
+    color: #f8f8f8;
+}
+
+/*xapp-menu-item {
+    border: 3px solid red;
+}
+*/
